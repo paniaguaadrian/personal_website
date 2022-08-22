@@ -6,7 +6,7 @@ on:
     branches: [ "master" ]
 
 jobs:
-  deploy:
+  Deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -16,13 +16,15 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16.x'
-      - name: Install dependencies
+      - name: Install dependencies 👷‍♂️
         run: npm install
-      - name: Execute Lint
+      - name: Execute Lint 🧼
         run: npm run lint
-      - name: Build
+      - name: Build 🏗️
         run: npm run build
-      - name: Test e2e
+      - name: Unit Testing 🧪
+        run: npm run test
+      - name: Test e2e 👨‍🏫
         uses: cypress-io/github-action@v4
         with:
           command: npm run test:e2e
