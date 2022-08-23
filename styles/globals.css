@@ -543,6 +543,9 @@ body > main {
     margin-left: auto;
     padding: var(--block-spacing-vertical) 0;
 }
+.navbar_container {
+    border-bottom: 1px solid white;
+}
 .container,
 .container-fluid {
     width: 100%;
@@ -550,6 +553,11 @@ body > main {
     margin-left: auto;
     padding-right: var(--spacing);
     padding-left: var(--spacing);
+}
+@media (min-width: 390px) {
+    .container {
+        max-width: 510px;
+    }
 }
 @media (min-width: 576px) {
     .container {
@@ -582,6 +590,10 @@ section {
     display: grid;
     grid-template-columns: 1fr;
     margin: 0;
+    margin-top: 4rem;
+    gap: 5rem;
+    place-items: center;
+    align-content: center;
 }
 @media (min-width: 992px) {
     .grid {

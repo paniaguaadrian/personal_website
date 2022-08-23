@@ -3,4 +3,6 @@ module.exports = {
     collectCoverage: true,
     coverageDirectory: 'coverage',
     testEnvironment: 'jsdom',
+    test: /\.(sass|less|css)$/,
+    loaders: ['style-loader', 'css-loader', 'less-loader'],
 };

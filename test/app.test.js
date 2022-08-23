@@ -6,7 +6,7 @@ describe('App > Index page', () => {
     it('should render our app and show content', () => {
         render(<Index />);
 
-        const header = screen.getByText(/BreadAndWater Website/i);
+        const header = screen.getByText(/Adrian Breadandwater/i);
 
         expect(header).toBeInTheDocument();
     });

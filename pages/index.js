@@ -1,13 +1,20 @@
-import { Header } from '../components/Head/Head';
+import { Wrapper } from '../ui/WrapperContainer';
+import { Header as Head } from '../components/Head/Head';
+import { Navbar } from '../components/Navbar/Navbar';
+import { Header } from '../components/Header/Header';
+import { About } from '../components/About/About';
 
 export default function Home() {
     return (
-        <>
-            <Header title="BreadAndWater | Home" />
-            <header>
-                <h1>BreadAndWater Website</h1>
-                <h2>My personal website</h2>
-            </header>
-        </>
+        <Wrapper
+            content={
+                <>
+                    <Head title="BreadAndWater | Home" />
+                    <Navbar />
+                    <Header />
+                    <About />
+                </>
+            }
+        />
     );
 }
