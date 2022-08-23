@@ -13,6 +13,7 @@ export default function Home() {
                     <Navbar />
                     <Header />
                     <About />
+                    <p>Adding an small change to check github actions</p>
                 </>
             }
         />
