@@ -7,7 +7,7 @@ export default function BootcampPage() {
         <Wrapper
             content={
                 <>
-                    <Header title="Now" />
+                    <Header title="Java Bootcamp" />
                     <Bootcamp />
                 </>
             }
