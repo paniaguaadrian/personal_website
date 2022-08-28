@@ -32,17 +32,17 @@ export const Now = () => {
                                     Ironhack&apos;s bootcamp.
                                 </a>
                             </li>
+
                             <li>
-                                One of them is how to deliver our code to
-                                development or production environements, and the
-                                answer is Azure Pipelines.
+                                As a professional developer I didn&apos;t have
+                                many opportunities to work on the backend side.
+                                Normally I&apos;m more focused on the frontend
+                                logic.
                             </li>
                             <li>
-                                On my case, I&apos;ve used GitHub actions and
-                                Vercel to create my own pipeline and checks
-                                before I merge code. It takes in count also the
-                                pull requests that I made to my project in order
-                                to be as much professional as I can.
+                                That&apos;s why I&apos;ve decided to be a more
+                                complete developer thank&apos;s to the good
+                                teacher and programm that Ironhack has.
                             </li>
                         </ul>
                         <Link href="/now/bootcamp">
@@ -72,6 +72,32 @@ export const Now = () => {
                     </hgroup>
 
                     <hgroup>
+                        <h4>⛓️ Blockchain, Solidity and JavaScript</h4>
+                        <ul>
+                            <li>
+                                1 year ago I discovered the power of the
+                                blockchain space and technology. I just get in
+                                love with that and I&apos;m learning at my own
+                                path all the necessary to became a Blockchain
+                                Engineer.
+                            </li>
+                            <li>
+                                On that case, no Bootcamp. This time will be the{' '}
+                                <a
+                                    href="https://github.com/smartcontractkit/full-blockchain-solidity-course-js"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    Patrick Collins course
+                                </a>
+                                . One of the most loved courses out there to
+                                learn Blockchain and Solidity in deep.
+                            </li>
+                        </ul>
+                        <a></a>
+                    </hgroup>
+
+                    <hgroup>
                         <h4>⌛ Pipelines, CI/CD and Github actions</h4>
                         <ul>
                             <li>
@@ -81,15 +107,16 @@ export const Now = () => {
                                 microservices and microfrontends.
                             </li>
                             <li>
-                                As a professional developer I didn&apos;t have
-                                many opportunities to work on the backend side.
-                                Normally I&apos;m more focused on the frontend
-                                logic.
+                                One of them is how to deliver our code to
+                                development or production environements, and the
+                                answer is Azure Pipelines.
                             </li>
                             <li>
-                                That&apos;s why I&apos;ve decided to be a more
-                                complete developer thank&apos;s to the good
-                                teacher and programm that Ironhack has.
+                                On my case, I&apos;ve used GitHub actions and
+                                Vercel to create my own pipeline and checks
+                                before I merge code. It takes in count also the
+                                pull requests that I made to my project in order
+                                to be as much professional as I can.
                             </li>
                         </ul>
                         <a
