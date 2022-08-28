@@ -543,6 +543,21 @@ body > main {
     margin-left: auto;
     padding: var(--block-spacing-vertical) 0;
 }
+.mt {
+    margin-top: 2.5rem;
+}
+.mb {
+    margin-bottom: 2.5rem;
+}
+.red {
+    color: #dc143c !important;
+}
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
 .navbar_container {
     border-bottom: 1px solid white;
 }
