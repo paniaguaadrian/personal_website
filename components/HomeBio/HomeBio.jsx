@@ -20,7 +20,7 @@ export const HomeBio = () => {
                     <hgroup>
                         <h4>Keep coding, keep learning</h4>
                         <Link href="/now">
-                            <a>Discover what I&apos;m doing right now</a>
+                            <a>🔥Discover what I&apos;m doing right now</a>
                         </Link>
                         <a></a>
                     </hgroup>
@@ -48,7 +48,7 @@ export const HomeBio = () => {
                             </li>
                         </ul>
                         <Link href="/work">
-                            <a>Check my professional experience here</a>
+                            <a>🧑‍💻 Check my professional experience here</a>
                         </Link>
                         <a></a>
                     </hgroup>
@@ -77,16 +77,6 @@ export const HomeBio = () => {
                         </Link>
                         <a></a>
                     </hgroup>
-
-                    {/* <div>
-                    <a
-                        href="mailto:paniaguasanchezadrian@gmail.com"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        Get in touch quickly 📨
-                    </a>
-                </div> */}
                 </div>
             </header>
         </>
