@@ -1,14 +1,15 @@
 import { Wrapper } from '../ui/WrapperContainer';
 import { Header } from '../components/Head/Head';
-import { HomeBio } from '../components/HomeBio/HomeBio';
+import { Navbar } from '../components/Navbar/Navbar';
 
-export default function Home() {
+export default function Now() {
     return (
         <Wrapper
             content={
                 <>
-                    <Header title="BreadAndWater" />
-                    <HomeBio />
+                    <Header title="Now" />
+                    <Navbar />
+                    <p>This is the Now page</p>
                 </>
             }
         />
