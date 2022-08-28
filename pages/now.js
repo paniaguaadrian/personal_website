@@ -1,5 +1,6 @@
 import { Wrapper } from '../ui/WrapperContainer';
 import { Header } from '../components/Head/Head';
+import { Navbar } from '../components/Navbar/Navbar';
 
 export default function Now() {
     return (
@@ -7,6 +8,7 @@ export default function Now() {
             content={
                 <>
                     <Header title="Now" />
+                    <Navbar />
                     <p>This is the Now page</p>
                 </>
             }

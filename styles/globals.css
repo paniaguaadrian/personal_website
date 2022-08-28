@@ -553,10 +553,12 @@ body > main {
     color: #dc143c !important;
 }
 .content-center {
+    margin-top: 1rem;
+    /* margin-bottom: 2rem; */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 80%;
 }
 .navbar_container {
     border-bottom: 1px solid white;
@@ -594,6 +596,14 @@ body > main {
 @media (min-width: 1200px) {
     .container {
         max-width: 1130px;
+    }
+    .content-center {
+        margin-top: 2rem;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height: 100%;
     }
 }
 section {
