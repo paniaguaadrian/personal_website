@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "companyName": "Travelport",
+        "description": "Actually I'm working as a Software Engineer I at Travelport. A multinational company working on the travel retail. Here I'm part of one of the 8 teams in Barcelona migragting a Desktop App to a Cloud App with a team of 8 coworkers. All under SAFe and Scrum methodology.",
+        "stack": "JavaScript, TypeScript, React, GraphQL, Microservices, Microfrontends, BDD, TDD, Jest, React Testing Library, Azure, Automation, Jira",
+        "detailsLink": "Travelport"
+    },
+    {
+        "id": 2,
+        "companyName": "Wesrom Corporation",
+        "description": "Wesrom was my first touch with a profesional and big tech company. I've shared space with awesome developers, product managers and designers from around the world. Here I was in charge of the frontend of different projects in a team of 8 workers.",
+        "stack": "JavaScript, TypeScript, React, TailwindCSS, React Query, GraphQL, Redis, Jira, BitBucket, Agile methodology",
+        "detailsLink": "Wesrom"
+    },
+
+    {
+        "id": 3,
+        "companyName": "Rimbo Rent",
+        "description": "Rimbo.rent was my first company and project. As a unique engineer and technical guy, I managed to create 8 different products (including frontend, backend, database and production release). At Rimbo we were handling tenants, landlords, property managers and properties under the same flow and dashboard in order to don't pay the deposit.",
+        "stack": "JavaScript, React, MaterialUI & handmade CSS, Google Cloud Platform, Node, Express and MongoDB",
+        "detailsLink": "Rimbo"
+    }
+]
